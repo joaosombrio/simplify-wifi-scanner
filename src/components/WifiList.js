@@ -1,17 +1,21 @@
-import React, { Component } from "react";
-import WifiEntry from "./WifiEntry";
+import React, { Component } from 'react'
+import styled from 'styled-components'
+import WifiEntry from './WifiEntry'
 
 class WifiList extends Component {
-  render = () => {
-    return (
-      <div>
-        {this.props.list &&
-          this.props.list.map(wifi => {
-            <WifiEntry {...wifi} />;
-          })}
-      </div>
-    );
-  };
+  render = () => (
+    <Container>
+      {this.props.list.map(wifi => (<WifiEntry {...wifi} />))}
+    </Container>
+  )
 }
 
-export default WifiList;
+const Container = styled.div`
+  > * {
+    :nth-child(even) {
+      background-color: #ededed;
+    }
+  }
+`
+
+export default WifiList

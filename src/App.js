@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import MainPage from "./components/MainPage";
+import WifiConnections from "./data/placeholders/data-connections.json";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap"
         rel="stylesheet"
       />
-      <MainPage />
+      <MainPage list={WifiConnections}/>
     </div>
   );
 }
