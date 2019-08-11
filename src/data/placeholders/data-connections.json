@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Wifi do Brise",
+    "macAddress": "9F-43-38-5A-A9-77",
+    "signalStrength": 60
+  },
+  {
+    "name": "Casa do João",
+    "macAddress": "12-EC-89-BB-01-8A",
+    "signalStrength": 30
+  },
+  {
+    "name": "julia e ana",
+    "macAddress": "3F-62-68-6A-5F-2B",
+    "signalStrength": 40
+  },
+  {
+    "name": "casa do ademar",
+    "macAddress": "C9-BC-C1-0E-A7-5D",
+    "signalStrength": 20
+  },
+  {
+    "name": "vivo 34A4D3",
+    "macAddress": "12-E1-C2-93-50-B1",
+    "signalStrength": 60
+  }
+]
