@@ -5,3 +5,11 @@
 .Absolute {
   position: absolute;
 }
+
+.P8 {
+  padding: 8;
+}
+
+.PR8 {
+  padding-right: 8px;
+}
