@@ -4,7 +4,7 @@ import scan from "../wifi-service/scanner";
 
 class ScanButton extends Component {
   render() {
-    return <Container className="Absolute" onClick={scan}>SCAN</Container>;
+    return <Container className="Absolute" onClick={console.log(process.platform)}>SCAN</Container>;
   }
 }
 
