@@ -9,14 +9,14 @@ const scan = () => {
     let scanPromise = 
       _scan()
         .then((networks) => {
-          networks.map(network => {
+          networks.map(network => ({
             ssid: network.ssid,
             mac: network.mac,
             channel: network.channel,
             frequency: network.frequency,
             signal: network.quality,
             security: network.security
-          })
+          }))
         })
         .catch((error) => { error });
     return scanPromise;
