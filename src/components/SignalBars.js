@@ -25,19 +25,19 @@ const Container = styled.div`
     bottom: 0;
   }
   .Bar1 {
-    height: 5px;
+    height: 7px;
     bottom: 0;
   }
   .Bar2 {
-    height: 10px;
+    height: 14px;
     left: 10px;
   }
   .Bar3 {
-    height: 15px;
+    height: 21px;
     left: 20px;
   }
   .Bar4 {
-    height: 20px;
+    height: 28px;
     left: 30px;
   }
 `
