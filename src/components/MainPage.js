@@ -3,11 +3,13 @@ import ScanButton from "./ScanButton";
 import styled from "styled-components";
 import WifiList from "./WifiList";
 import TabSelector from "./TabSelector"
+import WindowBar from "./WindowBar"
 
 class MainPage extends Component {
   render() {
     return (
       <Container className="Relative">
+        <WindowBar />
         <TabSelector />
         <WifiList list={this.props.list} />
         <ScanButton />

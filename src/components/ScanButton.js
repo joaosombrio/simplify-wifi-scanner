@@ -9,6 +9,7 @@ class ScanButton extends Component {
 }
 
 const Container = styled.button`
+  cursor: pointer;
   width: min-content;
   padding: 4px 16px;
   border-radius: 20px;
@@ -16,10 +17,12 @@ const Container = styled.button`
   font-family: "Montserrat", sans-serif;
   border: 0;
   color: white;
-  /* background-color: #32c864; */
   background-image: linear-gradient(to bottom right, #32c864, #32c896);
   transform: translate(calc(50vw - 50%));
   bottom: 32px;
+  :hover {
+    opacity: 0.7;
+  }
 `;
 
 export default ScanButton;
