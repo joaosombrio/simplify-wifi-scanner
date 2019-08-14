@@ -20,7 +20,7 @@ const Container = styled.div`
   height: 25px;
   padding-right: 12px;
   .BarTemplate {
-    background-color: #59e372;
+    background-color: #32c864;
     width: 7px;
     bottom: 0;
   }

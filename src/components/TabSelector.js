@@ -6,7 +6,7 @@ class TabSelector extends Component {
     selectedTab: 0
   }
 
-  getActive = key => key == this.state.selectedTab ? { backgroundColor: '#59e372', color: 'white' } : {}
+  getActive = key => key == this.state.selectedTab ? { backgroundColor: '#32c864', color: 'white' } : {}
 
   tabs = [
     {
@@ -36,17 +36,22 @@ class TabSelector extends Component {
 }
 
 const Container = styled.div`
+  height: max-content;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   border: 1px solid #ccc;
   .Tab {
     width: 100%;
-    font-size: 24px;
+    min-width: max-content;
+    height: 100%;
+    font-size: 20px;
     padding: 2px 24px;
     text-align: center;
+    align-self: center;
+    vertical-align: middle;
     :hover {
-      color: #59e372;
+      color: #32c864;
       cursor: pointer;
     }
   }
