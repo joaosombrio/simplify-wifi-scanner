@@ -16,7 +16,8 @@ const Container = styled.button`
   font-family: "Montserrat", sans-serif;
   border: 0;
   color: white;
-  background-color: #32c864;
+  /* background-color: #32c864; */
+  background-image: linear-gradient(to bottom right, #32c864, #32c896);
   transform: translate(calc(50vw - 50%));
   bottom: 32px;
 `;

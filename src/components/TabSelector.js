@@ -6,7 +6,7 @@ class TabSelector extends Component {
     selectedTab: 0
   }
 
-  getActive = key => key == this.state.selectedTab ? { backgroundColor: '#32c864', color: 'white' } : {}
+  getActive = key => key == this.state.selectedTab ? { backgroundImage: 'linear-gradient(to bottom right, #32c864, #32c896)', color: 'white' } : {}
 
   tabs = [
     {
