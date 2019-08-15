@@ -2,14 +2,17 @@ const electron = require("electron");
 const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
 
+import { process } from "electron"
+
 const path = require("path");
 const url = require("url");
 
 let mainWindow;
 
+
+
 function createWindow() {
   mainWindow = new BrowserWindow({ width: 800, height: 600, frame: false });
-
   mainWindow.loadURL(
     process.env.ELECTRON_START_URL ||
       url.format({
