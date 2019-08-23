@@ -5,7 +5,7 @@ import WifiEntry from './WifiEntry'
 class WifiList extends Component {
   render = () => (
     <Container>
-      {this.props.list.map(wifi => (<WifiEntry {...wifi} />))}
+      {this.props.list.map((wifi, index) => (<WifiEntry {...wifi} key={`network-${index}`} />))}
     </Container>
   )
 }

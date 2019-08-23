@@ -4,15 +4,17 @@ import simplifiLogo from '../assets/simplifiLogo.svg'
 import minimize from '../assets/minimize.svg'
 import maximize from '../assets/maximize.svg'
 import close from '../assets/close.svg'
+import SvgIcon from './SvgIcon'
 
 class WindowBar extends Component {
   render = () => (
     <Container>
-      <Logo><img src={simplifiLogo} style={{fill: '#32c864'}}/></Logo>
+      <Logo><img src={simplifiLogo} style={{ fill: '#32c864' }} /></Logo>
       <div>
-        <Button className="Svg"><img src={minimize}/></Button>
-        <Button className="Svg"><img src={maximize}/></Button>
-        <Button className="Svg Close"><img src={close}/></Button>
+        <Button className="Svg"><img src={minimize} /></Button>
+        <Button className="Svg"><img src={maximize} /></Button>
+        <Button className="Svg Close"><img src={close} /></Button>
+        <SvgIcon style="stroke: red; height: 50px; width: 50px" icon='../assets/close.svg' />
       </div>
     </Container>
   )
