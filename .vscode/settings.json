@@ -1,11 +1,10 @@
 {
-    "editor.tabSize": 2,
-    "prettier.endOfLine": "lf",
-    "files.eol": "\n",
-    "prettier.eslintIntegration": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.semi": false,
-    "prettier.singleQuote": true,
-    "prettier.stylelintIntegration": true,
-    "prettier.useTabs": true
+	"editor.tabSize": 2,
+	"prettier.endOfLine": "lf",
+	"files.eol": "\n",
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier-stylelint": true,
+	"prettier.useTabs": true
 }
