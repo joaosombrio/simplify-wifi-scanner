@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import ScanButton from "./ScanButton";
-import styled from "styled-components";
-import WifiList from "./WifiList";
-import TabSelector from "./TabSelector"
-import WindowBar from "./WindowBar"
+import React, { Component } from 'react'
+import styled from 'styled-components'
+import ScanButton from './ScanButton'
+import WifiList from './WifiList'
+import TabSelector from './TabSelector'
+import WindowBar from './WindowBar'
 
 class MainPage extends Component {
   render() {
@@ -14,7 +14,7 @@ class MainPage extends Component {
         <WifiList list={this.props.list} />
         <ScanButton />
       </Container>
-    );
+    )
   }
 }
 
@@ -22,6 +22,6 @@ const Container = styled.body`
   height: 100vh;
   width: 100vw;
   background-color: white;
-`;
+`
 
-export default MainPage;
+export default MainPage
