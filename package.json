@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"electron": "^6.0.1",
+		"electron": "^9.4.0",
 		"eslint": "^6.1.0",
 		"eslint-config-airbnb": "^18.0.0",
 		"eslint-plugin-flowtype": "^4.2.0",
